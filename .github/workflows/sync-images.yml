@@ -1,0 +1,16 @@
+name: "同步镜像"
+on: workflow_dispatch
+jobs:
+  sync-images:
+    runs-on: ubuntu-latest
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+    - name: "安装image-syncer工具"
+      env:
+        CONFIG: ${{ secrets.CONFIG }}
+      run: |
+        wget -c https://github.com/AliyunContainerService/image-syncer/releases/download/v1.3.1/image-syncer-v1.3.1-linux-amd64.tar.gz -O - | tar -xz
+        echo "$CONFIG" > config.yaml
+    - name: "运行image-syncer"
+      run: ./image-syncer --config config.yaml
