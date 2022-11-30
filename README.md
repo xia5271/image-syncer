@@ -9,7 +9,8 @@ This is a image syncer for your docker.
 1. Fork this repository
 2. Modify the file (example/config.yaml) as your own configuration information
 3. Create a secret named CONFIG([Settings]->[Secrets]), and fill in the value as the content of the above file
-4. Run this action in your forked repository
+4. Modify the file imagelist.yaml, add images you need.
+5. Run this action in your forked repository
 
 
 ## Roadmap/TODO
