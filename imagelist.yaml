@@ -1,4 +1,5 @@
 images:
   rancher/mirrored-pause:3.6: registry.cn-shenzhen.aliyuncs.com/icool/rancher.mirrored-pause:3.6
-  registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20220916-gd32f8c343: registry.cn-shenzhen.aliyuncs.com/zodance/kube-webhook-certgen:v20220916-gd32f8c343
-  registry.k8s.io/ingress-nginx/controller:v1.4.0: registry.cn-shenzhen.aliyuncs.com/zodance/controller:v1.4.0
+  registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20220916-gd32f8c343: registry.cn-shenzhen.aliyuncs.com/icool/k8s.ingress-nginx.kube-webhook-certgen:v20220916-gd32f8c343
+  registry.k8s.io/ingress-nginx/controller:v1.4.0: registry.cn-shenzhen.aliyuncs.com/icool/k8s.ingress-nginx.controller:v1.4.0
+  registry.k8s.io/defaultbackend-amd64:1.5: registry.cn-shenzhen.aliyuncs.com/icool/k8s.ingress-nginx.defaultbackend-amd64:1.5
