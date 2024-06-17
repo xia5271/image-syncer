@@ -1,19 +1,19 @@
 images:
-  registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.8.0: registry.cn-shenzhen.aliyuncs.com/icool/k8s.kube-state-metrics.kube-state-metrics:v2.8.0
+  registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.8.0: registry.cn-shanghai.aliyuncs.com/xiak8s/k8s.kube-state-metrics.kube-state-metrics:v2.8.0
 historyRecord:
-  quay.io/jetstack/cert-manager-controller:v1.10.0: registry.cn-shenzhen.aliyuncs.com/icool/quay.cert-manager.cert-manager-controller:v1.10.0
-  quay.io/jetstack/cert-manager-webhook:v1.10.0: registry.cn-shenzhen.aliyuncs.com/icool/quay.cert-manager.cert-manager-webhook:v1.10.0
-  quay.io/jetstack/cert-manager-cainjector:v1.10.0: registry.cn-shenzhen.aliyuncs.com/icool/quay.cert-manager.cert-manager-cainjector:v1.10.0
-  quay.io/jetstack/cert-manager-ctl:v1.10.0: registry.cn-shenzhen.aliyuncs.com/icool/quay.cert-manager.cert-manager-ctl:v1.10.0
-  rancher/mirrored-pause:3.6: registry.cn-shenzhen.aliyuncs.com/icool/rancher.mirrored-pause:3.6
+  quay.io/jetstack/cert-manager-controller:v1.10.0: registry.cn-shanghai.aliyuncs.com/xiak8s/quay.cert-manager.cert-manager-controller:v1.10.0
+  quay.io/jetstack/cert-manager-webhook:v1.10.0: registry.cn-shanghai.aliyuncs.com/xiak8s/quay.cert-manager.cert-manager-webhook:v1.10.0
+  quay.io/jetstack/cert-manager-cainjector:v1.10.0: registry.cn-shanghai.aliyuncs.com/xiak8s/quay.cert-manager.cert-manager-cainjector:v1.10.0
+  quay.io/jetstack/cert-manager-ctl:v1.10.0: registry.cn-shanghai.aliyuncs.com/xiak8s/quay.cert-manager.cert-manager-ctl:v1.10.0
+  rancher/mirrored-pause:3.6: registry.cn-shanghai.aliyuncs.com/xiak8s/rancher.mirrored-pause:3.6
   k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.3.0: registry.cn-hangzhou.aliyuncs.com/icool/gcr.csi-node-driver-registrar:v2.3.0
   k8s.gcr.io/sig-storage/csi-resizer:v1.2.0: registry.cn-hangzhou.aliyuncs.com/icool/gcr.csi-resizer:v1.2.0
   k8s.gcr.io/sig-storage/csi-snapshotter:v3.0.3: registry.cn-hangzhou.aliyuncs.com/icool/gcr.csi-snapshotter:v3.0.3
   k8s.gcr.io/sig-storage/csi-attacher:v3.1.0: registry.cn-hangzhou.aliyuncs.com/icool/gcr.csi-attacher:v3.1.0
   k8s.gcr.io/sig-storage/snapshot-controller:v3.0.3: registry.cn-hangzhou.aliyuncs.com/icool/gcr.snapshot-controller:v3.0.3
   k8s.gcr.io/sig-storage/csi-provisioner:v3.0.0: registry.cn-hangzhou.aliyuncs.com/icool/gcr.csi-provisioner:v3.0.0
-  registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20220916-gd32f8c343: registry.cn-shenzhen.aliyuncs.com/icool/k8s.ingress-nginx.kube-webhook-certgen:v20220916-gd32f8c343
-  registry.k8s.io/ingress-nginx/controller:v1.4.0: registry.cn-shenzhen.aliyuncs.com/icool/k8s.ingress-nginx.controller:v1.4.0
-  registry.k8s.io/defaultbackend-amd64:1.5: registry.cn-shenzhen.aliyuncs.com/icool/k8s.ingress-nginx.defaultbackend-amd64:1.5
-  registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20220916-gd32f8c343: registry.cn-shenzhen.aliyuncs.com/icool/k8s.ingress-nginx.kube-webhook-certgen:v20220916-gd32f8c343
-  registry.k8s.io/ingress-nginx/controller:v1.5.1: registry.cn-shenzhen.aliyuncs.com/icool/k8s.ingress-nginx.controller:v1.5.1
+  registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20220916-gd32f8c343: registry.cn-shanghai.aliyuncs.com/xiak8s/k8s.ingress-nginx.kube-webhook-certgen:v20220916-gd32f8c343
+  registry.k8s.io/ingress-nginx/controller:v1.4.0: registry.cn-shanghai.aliyuncs.com/xiak8s/k8s.ingress-nginx.controller:v1.4.0
+  registry.k8s.io/defaultbackend-amd64:1.5: registry.cn-shanghai.aliyuncs.com/xiak8s/k8s.ingress-nginx.defaultbackend-amd64:1.5
+  registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20220916-gd32f8c343: registry.cn-shanghai.aliyuncs.com/xiak8s/k8s.ingress-nginx.kube-webhook-certgen:v20220916-gd32f8c343
+  registry.k8s.io/ingress-nginx/controller:v1.5.1: registry.cn-shanghai.aliyuncs.com/xiak8s/k8s.ingress-nginx.controller:v1.5.1
